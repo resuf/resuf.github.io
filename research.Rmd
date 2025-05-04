@@ -1,0 +1,123 @@
+---
+title: "<strong>Research Projects</strong>"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Working Papers
+
+[From Reservation to Transformation: The Socioeconomic Impact of Political Quotas](pdf/Reservation_to_Transformation.pdf)   <br />
+&nbsp;&nbsp;&nbsp; [[PDF](pdf/Reservation_to_Transformation.pdf)]
+<!-- Awarded Best Student Work - [IPUMS Spatial 2023 ](https://www.ipums.org/impact/ipums-research-award?utm_source=IPUMS+Emails&utm_campaign=1d9161f8c5-EMAIL_CAMPAIGN_2019_05_31_07_13_COPY_01&utm_medium=email&utm_term=0_a679127ff0-1d9161f8c5-21864473) -->
+
+<p style="margin-top: -15px">
+    <button class="abstract-btn">Abstract</button>
+</p>
+<div class="abstract-content">
+The role of affirmative action policies in promoting socio-economic mobility remains a subject of intense global debate, with countries implementing varying strategies to address historical inequalities. This study leverages India's 2008 delimitation exercise as a natural experiment to assess the impact of political quotas for Scheduled Castes (SCs) on local socio-economic outcomes, focusing specifically on SC outcomes within villages rather than solely village-level metrics. We find that SC reservations substantially increase SC student enrollment, particularly in prestigious schools, and foster entrepreneurial activity, as evidenced by growth in both the number and size of SC-owned firms. Additionally, quotas facilitate SCs' entry into higher-status occupations, helping to erode entrenched caste-based occupational barriers. These effects are driven by greater access to formal institutional funding for SC-owned firms and improvements in the quality of politicians elected under the quota system. Improvements at the village level, including infrastructure enhancements and increased economic activity, further support these outcomes. Notably, the observed gains persist even after villages lose reserved status, underscoring the long-term benefits of these policies. Our findings contribute to global discourse on affirmative action, suggesting that targeted, well-implemented quotas can yield sustained social and economic mobility for marginalized groups. With India's next delimitation scheduled post-2026, this research provides critical insights for policymakers worldwide who are seeking effective strategies to address inequality and social stratification.
+</div>
+
+
+[Ancient Epics in the Television Age: Mass Media, Identity, and the Rise of Hindu Nationalism in India](pdf/Ramayan.pdf), (with [Paul Brimble](https://pbrimble.github.io/), [Akhila Kovvuri](https://vpge.stanford.edu/people/akhila-kovvuri), [Alessandro Saia](https://sites.google.com/site/asaia9585/alessandro-saia) and [Dean Yang](https://deanyang-econ.github.io/deanyang/)) [NBER WP 33417](https://www.nber.org/system/files/working_papers/w33417/w33417.pdf)  <br />
+&nbsp;&nbsp;&nbsp; Press: [The Hindu](https://www.thehindu.com/society/how-the-ramayan-tv-show-helped-shape-a-singular-nationwide-hindu-identity/article69202807.ece)
+
+<p style="margin-top: -15px">
+    <button class="abstract-btn">Abstract</button>
+</p>
+<div class="abstract-content">
+The growing prominence of Hindu nationalism, known as "Hindutva," in India has garnered significant attention for its impact on politics and society, particularly its adverse effects on minority communities. However, the Hindu identity was not always a monolithic and political one. This study explores the potential role of a Hindu mythological show, "Ramayana," which aired on the solely available TV channel in India during 1987-88, in shaping the Hindutva identity primarily on the increasing salience of religious identity in people's political, social, and personal lives. We proxy for exposure to this show using location and television transmitters obtained from archival data and use signal propagation modelling based on irregular terrain to measure signal strength. Examining political and social manifestations of identity, we find that exposure to the TV show is associated with increased electoral success for right-wing Hindu nationalist parties, heightened tensions between Hindus and Muslims, and a decrease in the number of schools affiliated with the significant far-right Hindu nationalist organization. Our next steps involve investigating the impact on personal expressions of identity, such as child naming practices and dietary choices influenced by religious taboos.</div>
+
+
+[The Promise and Limits of Leader-Driven Grassroots Mobilization](), (with [Feyaad Allie](https://www.feyaadallie.com/) )  <br />
+&nbsp;&nbsp;&nbsp; Press: [Hindustan Times](https://www.hindustantimes.com/india-news/bharat-jodo-yatra-boosts-congress-strike-rate-and-vote-share-in-karnataka-elections-101684006733079.html)
+
+<p style="margin-top: -15px">
+    <button class="abstract-btn">Abstract</button>
+</p>
+<div class="abstract-content">
+Across contexts, political parties are often intertwined with mass societal movements. While the process by which parties originate from mass movements is extensively stud- ied, less is known about how established parties build mass movements and what their effects are. We argue that one strategy for parties is grassroots campaigns: an explicitly non-electoral effort to engage with the masses and the party organization. While these grassroots campaigns are about mass movement building and not directly linked to an upcoming election, they can end up having an electoral effect. We study this strategy in the context of the Indian National Congress’ effort to “return to their roots” and rebuild. We examine the electoral effects of Congress leader Rahul Gandhi’s 150-day grassroots march (the Bharat Jodo Yatra) on electoral politics. We find that the ya- tra improved Congress performance in state and national elections, with effects being higher in areas closest to the yatra route. Our interviews with party affiliates and voters suggest three key channels through which this grassroots effort to build a mass movement influenced electoral outcomes: building the party organization, shifting the discourse on viability, and improving perceptions of party cohesion. An original survey of 3500 voters provides suggestive evidence that one year after the yatra, some of these channels remain unchanged. Overall, the paper demonstrates the promise and limits of mass movement building as a party mobilization strategy.
+</div>
+
+# Work in Progress
+
+[Digitizing Justice: Trickle-up effects of Indonesian E-Courts Reform](), (with [Sultan Mehmood](https://sites.google.com/view/sultan-mehmood/home) and [Thomas Fujiwara](https://sites.google.com/view/tfujiwara/home)) 
+
+
+<p style="margin-top: -15px">
+    <button class="abstract-btn">Abstract</button>
+</p>
+<div class="abstract-content">
+The growing adoption of digital justice reforms worldwide represents a significant shift in how judicial systems operate. By streamlining processes, enhancing transparency, and improving access, these reforms promise to address longstanding inefficiencies within court systems. However, the impacts of digitalization are not uniform, and questions remain regarding disparities in access, the adaptability of legal practitioners, and the broader implications for case management and judicial independence. Exploring how digital justice reforms shape court efficiency and procedural fairness is essential to understanding their transformative potential. To answer these questions, we investigate the impact of Indonesia's E-Court Reform, a digitization initiative aimed at enhancing judicial efficiency by implementing electronic filing, summons, and trial processes in civil courts. Using a triple difference empirical strategy, we analyze the universe of Indonesian court cases to measure effects on case processing times, quality of judicial decisions, and broader systemic impacts on untreated courts. Our findings reveal a significant reduction in case delays by approximately 7.3 days, with no decline in decision quality; metrics like legal reasoning per page have improved, so do fewer cases proceed to appeal or are overturned at higher court. These efficiency gains are concentrated in straightforward cases, thereby freeing judicial resources for more complex cases. We also document positive spillovers to higher courts, where delays have also decreased, indicating a “trickle-up” effect of digital reform across the judiciary. This study contributes novel causal evidence on digital reform efficacy in judicial systems, demonstrating that digitization can reduce procedural bottlenecks and improve overall case management quality in large, developing country contexts.
+</div>
+
+
+[Ancestral origins, social conflict and cooperation](), (with [Ricardo Ghidoni](https://sites.google.com/site/riccardoghidoni/), [Mariapia Mendola](https://sites.google.com/site/mariapiamendola/), [Stefano Piasenti](https://sites.google.com/view/stefanopiasenti/home-page) and [Alessandro Saia](https://sites.google.com/site/asaia9585/alessandro-saia)) 
+
+
+<!-- <p style="margin-top: -15px"> -->
+<!--     <button class="abstract-btn">Abstract</button> -->
+<!-- </p> -->
+<!-- <div class="abstract-content"> -->
+<!-- The growing adoption of digital justice reforms worldwide represents a significant shift in how judicial systems operate. By streamlining processes, enhancing transparency, and improving access, these reforms promise to address longstanding inefficiencies within court systems. However, the impacts of digitalization are not uniform, and questions remain regarding disparities in access, the adaptability of legal practitioners, and the broader implications for case management and judicial independence. Exploring how digital justice reforms shape court efficiency and procedural fairness is essential to understanding their transformative potential. To answer these questions, we investigate the impact of Indonesia's E-Court Reform, a digitization initiative aimed at enhancing judicial efficiency by implementing electronic filing, summons, and trial processes in civil courts. Using a triple difference empirical strategy, we analyze the universe of Indonesian court cases to measure effects on case processing times, quality of judicial decisions, and broader systemic impacts on untreated courts. Our findings reveal a significant reduction in case delays by approximately 7.3 days, with no decline in decision quality; metrics like legal reasoning per page have improved, so do fewer cases proceed to appeal or are overturned at higher court. These efficiency gains are concentrated in straightforward cases, thereby freeing judicial resources for more complex cases. We also document positive spillovers to higher courts, where delays have also decreased, indicating a “trickle-up” effect of digital reform across the judiciary. This study contributes novel causal evidence on digital reform efficacy in judicial systems, demonstrating that digitization can reduce procedural bottlenecks and improve overall case management quality in large, developing country contexts. -->
+<!-- </div> -->
+
+[Power-sharing, Segregation and Conflict](), (with [Saumitra Jha](https://saumitra.people.stanford.edu/), [Dominic Rohner](https://sites.google.com/site/dprohner/), [Alessandro Saia](https://sites.google.com/site/asaia9585/alessandro-saia) and [Ekaterina Zhuravskaya](http://www.parisschoolofeconomics.com/zhuravskaya-ekaterina/) ) 
+
+
+[Who Watches the Watchmen? Exploring Bias in Policing in India](), (with [Priyadarshi Amar](https://priyadarshiamar.github.io/) and [Varun KR](https://www.varun-kr.com/) ) 
+
+[Voting by the Vedas: The Influence of Hindu Sects on Political Choices and Gender Dynamics]()
+
+
+
+<style>
+/* Style the abstract button to look like a hyperlink */
+.abstract-btn {
+    color: rgba(0, 49, 60, 1); /* Default hyperlink color */
+    cursor: pointer; /* Pointer/hand icon */
+    text-decoration: underline !important; /* Underline text */
+    font-size: 16px; /* Font size */
+    background: none; /* No background */
+    border: none; /* No border */
+    padding: 0; /* No padding */
+    font-family: inherit; /* Inherit font settings */
+    display: inline-block; /* Add this line */
+    text-decoration-style: solid !important; /* Set underline style */
+    text-decoration-color: rgba(150, 150, 150, 1) !important; /* Light grey color for underline */
+}
+
+
+/* Change text color on hover */
+.abstract-btn:hover {
+    color: rgba(0, 49, 60, 0.4); /* Hover color */
+    text-decoration: underline; /* Ensure underline on hover */
+}
+
+/* Style the abstract content */
+.abstract-content {
+    margin-top: 10px; /* Some space above the abstract content */
+    padding: 10px; /* Some padding */
+    border: none; /* Remove border */
+    background-color: transparent; /* Remove background color */
+    font-size: 14px; /* Adjust the font size to your preference */
+    display: none; /* Hide the abstract content initially */
+    text-align: justify; /* Justify the text */
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var buttons = document.querySelectorAll('.abstract-btn');
+    buttons.forEach(function(button) {
+        button.addEventListener('click', function() {
+            var abstract = button.parentElement.nextElementSibling;
+            if (abstract.style.display === 'none' || abstract.style.display === '') {
+                abstract.style.display = 'block';
+            } else {
+                abstract.style.display = 'none';
+            }
+        });
+    });
+});
+</script>
