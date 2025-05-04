@@ -25,4 +25,4 @@ Prior to this, I earned my M.Res. in Economics at the Paris School of Economics.
 
 I visited Stanford University from January 2023 to June 2023. I also visited the Paris School of Economics (January 2024 to August 2024)
 
-<!-- <p style="font-size: 1.2em;">**I am on the 2025-2026 academic job market. You can access my job market paper <a href="PartyLines_NLM.pdf"  style="color: #b22222; font-weight: bold;">here</a>.** -->
+<!-- <p style="font-size: 1.2em;">**I am on the 2025-2026 academic job market. You can access my job market paper <a href="paper_name.pdf"  style="color: #b22222; font-weight: bold;">here</a>.** -->
