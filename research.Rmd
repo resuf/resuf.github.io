@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = FALSE)
 # Working Papers
 
 [From Reservation to Transformation: The Socioeconomic Impact of Political Quotas](pdf/Reservation_to_Transformation.pdf)   <br />
-&nbsp;&nbsp;&nbsp; [[PDF](pdf/Reservation_to_Transformation.pdf)]
+&nbsp;&nbsp;&nbsp; [[PDF](pdf/Reservation_to_Transformation.pdf)] [[Slides](pdf/slides_resuf.pdf)]
 
 <p style="margin-top: -15px">
     <button class="abstract-btn">Abstract</button>
