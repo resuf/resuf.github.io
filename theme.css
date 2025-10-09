@@ -121,18 +121,9 @@ d-title h1 {
 }
 
 strong {
-  color: #003366;       /* Choose any color you want */
+  color: #8C1515;       /* Choose any color you want */
   font-weight: bold;    /* Ensure it's visibly bold */
   font-size: 1.1em;      /* Increase size slightly (adjust as needed) */
 }
 
-/* Custom link color for body text */
-d-article a {
-  color: #8C1515; /* Stanford Maroon */
-  text-decoration: none; /* Optional: removes underline */
-}
 
-d-article a:hover {
-  color: #a23b3b; /* Slightly lighter maroon on hover */
-  text-decoration: underline; /* Optional: subtle hover feedback */
-}
