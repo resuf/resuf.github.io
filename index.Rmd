@@ -14,9 +14,11 @@ output:
   postcards::trestles
 site: distill::distill_website
 ---
-I will join Stanford's King Center on Global Development [Stanford's King Center on Global Development](https://kingcenter.stanford.edu/postdoctoral-fellows) as Postdoctoral Fellow in January 2026.
+I will join [Stanford's King Center on Global Development](https://kingcenter.stanford.edu/postdoctoral-fellows) as Postdoctoral Fellow in January 2026.
 
-I received my PhD in Economics from [HEC Lausanne, University of Lausanne](https://www.unil.ch/de/en/home.html) supervised by Dominic Rohner and Ekaterina Zhuravskaya.. My research broadly relates to the **political economy of minorities** in the Indian context. 
+I received my PhD in Economics from [HEC Lausanne, University of Lausanne](https://www.unil.ch/de/en/home.html) supervised by Dominic Rohner and Ekaterina Zhuravskaya. 
+
+My research broadly relates to the political economy of minorities in the Indian context. 
 
 <!-- Prior to this, I earned my M.Res. in Economics at the Paris School of Economics. I did my B.A Economics (with honours) at the University of Delhi. I am supervised by [Dominic Rohner](https://sites.google.com/site/dprohner/) and [Ekaterina Zhuravskaya](https://www.parisschoolofeconomics.com/zhuravskaya-ekaterina/). -->
 
