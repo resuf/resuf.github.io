@@ -126,4 +126,14 @@ strong {
   font-size: 1.1em;      /* Increase size slightly (adjust as needed) */
 }
 
+/* Precise: any link that goes to the King Center — Stanford maroon */
+a[href*="kingcenter.stanford.edu"] {
+  color: #8C1515 !important;
+  text-decoration: none;
+}
+a[href*="kingcenter.stanford.edu"]:hover {
+  color: #a23b3b !important;
+  text-decoration: underline;
+}
+
 
