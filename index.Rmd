@@ -1,4 +1,14 @@
 ---
+title: "Coming Soon"
+output:
+  distill::distill_article
+site: distill::distill_website
+---
+
+<!--
+Original content below (commented out):
+
+---
 title: "Resuf Ahmed"
 image: "resuf.jpg"
 links:
@@ -14,12 +24,15 @@ output:
   postcards::trestles
 site: distill::distill_website
 ---
-I will join the [Stanford's King Center on Global Development](https://kingcenter.stanford.edu/postdoctoral-fellows) as a Postdoctoral Fellow in January 2026.
 
-I received my Ph.D. in Economics from HEC Lausanne, University of Lausanne, where I was supervised by Dominic Rohner and Ekaterina Zhuravskaya.
+I will join Stanford's King Center on Global Development [Stanford's King Center on Global Development](https://kingcenter.stanford.edu/postdoctoral-fellows) as Postdoctoral Fellow in January 2026.
 
-My research broadly focuses on the political economy of minorities in the Indian context.
+I received my PhD in Economics from [HEC Lausanne, University of Lausanne](https://www.unil.ch/de/en/home.html) supervised by Dominic Rohner and Ekaterina Zhuravskaya.. My research broadly relates to the **political economy of minorities** in the Indian context.
 
-Prior to my doctoral studies, I earned an M.Res. in Economics from the Paris School of Economics and a B.A. (Honours) in Economics from the University of Delhi.
+Prior to this, I earned my M.Res. in Economics at the Paris School of Economics. I did my B.A Economics (with honours) at the University of Delhi.
+-->
 
-<!-- <p style="font-size: 1.2em;">**I am on the 2025-2026 academic job market. You can access my job market paper <a href="paper_name.pdf"  style="color: #b22222; font-weight: bold;">here</a>.** -->
+<div style="text-align: center; margin-top: 200px;">
+  <h1 style="font-size: 3em;">Coming Soon</h1>
+  <p style="font-size: 1.2em; color: #666;">This site is under construction.</p>
+</div>
