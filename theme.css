@@ -50,11 +50,6 @@ d-byline {
   --contents-size:   13px;
 }
 
-d-byline img {
-  width: 200px !important;   /* change this number to make larger/smaller */
-  height: auto !important;
-  border-radius: 6px;        /* optional */
-}
 
 /*-- ARTICLE APPENDIX --*/
 d-appendix {
@@ -141,7 +136,5 @@ a[href*="kingcenter.stanford.edu"]:hover {
   color: #a23b3b !important;
   text-decoration: underline;
 }
-
-
 
 
