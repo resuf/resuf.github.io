@@ -2,7 +2,7 @@
 
 ---
 title: "Resuf Ahmed"
-image: "resuf.jpg"
+image: "resuf.JPG"
 links:
   - label: '`r fontawesome::fa("github")` GitHub'
     url: "https://github.com/resuf/"
