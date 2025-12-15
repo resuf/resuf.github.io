@@ -5,7 +5,7 @@ links:
   - label: '`r fontawesome::fa("github")` GitHub'
     url: "https://github.com/resuf/"
   - label: '`r fontawesome::fa("paper-plane")` Email'
-    url: "mailto:resuf.ahmed@unil.ch"
+    url: "mailto:resuf@stanford.edu"
   - label: '`r fontawesome::fa("linkedin")` LinkedIn'
     url: "https://www.linkedin.com/in/resuf/"
   - label: '`r fontawesome::fa("twitter")` Twitter'
