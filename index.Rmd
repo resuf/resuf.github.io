@@ -1,8 +1,6 @@
-
-
 ---
 title: "Resuf Ahmed"
-image: "resuf.JPG"
+image: "resuf.jpg"
 links:
   - label: '`r fontawesome::fa("github")` GitHub'
     url: "https://github.com/resuf/"
@@ -16,11 +14,11 @@ output:
   postcards::trestles
 site: distill::distill_website
 ---
+I am a Postdoctoral Fellow at [Stanford's King Center on Global Development](https://kingcenter.stanford.edu/postdoctoral-fellows) at Stanford University.
 
-I am a 5th-year PhD Candidate in Economics at the [HEC Lausanne, University of Lausanne](https://www.unil.ch/de/en/home.html).
+I received my Ph.D. in Economics from HEC Lausanne, University of Lausanne, where I was supervised by Dominic Rohner and Ekaterina Zhuravskaya.
 
-My research broadly relates to the development and political economics in the Indian context.
+My research broadly focuses on the political economy of minorities in the Indian context.
 
-Prior to this, I earned my M.Res. in Economics at the Paris School of Economics. I did my B.A Economics (with Honours) at the University of Delhi. I am supervised by Dominic Rohner and Ekaterina Zhuravskaya.
+Prior to my doctoral studies, I earned an M.Res. in Economics from the Paris School of Economics and a B.A. (Honours) in Economics from the University of Delhi.
 
-I visited Stanford University from January 2023 to May 2023. I also visited the Paris School of Economics (January 2024 to August 2024)
