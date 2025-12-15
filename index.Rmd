@@ -16,9 +16,8 @@ site: distill::distill_website
 ---
 I am a Postdoctoral Fellow at [Stanford's King Center on Global Development](https://kingcenter.stanford.edu/postdoctoral-fellows) at Stanford University.
 
-I received my Ph.D. in Economics from HEC Lausanne, University of Lausanne, where I was supervised by Dominic Rohner and Ekaterina Zhuravskaya.
+I received my Ph.D. in Economics from HEC Lausanne, University of Lausanne, where I was supervised by Dominic Rohner and Ekaterina Zhuravskaya. Prior to my doctoral studies, I earned an M.Res. in Economics from the Paris School of Economics and a B.A. (Honours) in Economics from the University of Delhi.
 
 My research broadly focuses on the political economy of minorities in the Indian context.
 
-Prior to my doctoral studies, I earned an M.Res. in Economics from the Paris School of Economics and a B.A. (Honours) in Economics from the University of Delhi.
 
