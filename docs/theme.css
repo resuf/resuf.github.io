@@ -30,7 +30,7 @@ html {
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
   --hover-color:     rgba(0, 49, 60, 0.4);
   /*-- Specify custom fonts ~~~ must be imported above   --*/
-  --heading-font:    "Lato", serif; /* edited */
+  --heading-font:    "Lato", sans-serif; /* edited */
   --mono-font:       "IBM Plex Mono", monospace;  /* edited */
   --body-font:       "Lora", serif;          /* edited */
   --navbar-font:     "Lato", sans-serif;          /* edited */
