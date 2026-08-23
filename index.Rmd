@@ -10,6 +10,8 @@ links:
     url: "https://github.com/resuf/"
   - label: '`r fontawesome::fa("linkedin")` LinkedIn'
     url: "https://www.linkedin.com/in/resuf/"
+  - label: '`r fontawesome::fa("bluesky")` Bluesky'
+    url: "https://bsky.app/profile/resuf.bsky.social"
   - label: '`r fontawesome::fa("x-twitter")` X'
     url: "https://x.com/resuf_ahmed/"
 output:
