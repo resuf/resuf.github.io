@@ -2,9 +2,10 @@ name: "."
 title: "Resuf Ahmed"
 #image: "resuf.jpg"
 description: |
-  Resuf Ahmed
+  Resuf Ahmed is a Postdoctoral Fellow at Stanford's King Center on Global
+  Development, working on the political economy of minorities in India.
 output_dir: "docs"
-exclude: ["cv", "Makefile", "*.tex"]
+exclude: ["cv", "Makefile", "*.tex", "meta.html"]
 navbar:
 #  logo:
 #    image: images/logo.png
@@ -20,6 +21,8 @@ navbar:
       href: "pdf/cv_resuf_ahmed.pdf"
 #    - icon: fab fa-github
 #      href: https://github.com/resuf
-output: distill::distill_article
+output:
+  distill::distill_article:
+    includes:
+      in_header: meta.html
 theme: theme.css
-#favicon: favicon.ico

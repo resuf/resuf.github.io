@@ -2,10 +2,12 @@
 title: "Resuf Ahmed"
 image: "resuf.jpg"
 links:
-  - label: '`r fontawesome::fa("github")` GitHub'
-    url: "https://github.com/resuf/"
+  - label: '`r fontawesome::fa("google-scholar")` Google Scholar'
+    url: "https://scholar.google.com/citations?user=9ZJ5NW4AAAAJ&hl=en"
   - label: '`r fontawesome::fa("paper-plane")` Email'
     url: "mailto:resuf@stanford.edu"
+  - label: '`r fontawesome::fa("github")` GitHub'
+    url: "https://github.com/resuf/"
   - label: '`r fontawesome::fa("linkedin")` LinkedIn'
     url: "https://www.linkedin.com/in/resuf/"
   - label: '`r fontawesome::fa("twitter")` Twitter'

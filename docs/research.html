@@ -2199,8 +2199,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
-    --title-color:     #ca225e;
-    --header-color:    #ca225e;                    /* edited */
+    --title-color:     #8C1515;
+    --header-color:    #8C1515;                    /* edited */
     --body-color:      #404040;                    /* edited */
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
@@ -2254,13 +2254,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-color:       #7e7b88;                   /* edited */
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       #ca225e3d;                 /* edited */
+    --bkgd-color:       #8C15153d;                 /* edited */
   }
 
   /*-- Additional custom styles --*/
 
   ul > li::marker {
-    color: #ca225e;
+    color: #8C1515;
   }
 
   .distill-site-header {
@@ -2289,7 +2289,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   d-appendix {
-    background-color: #fdf7f9;
+    background-color: #faf6f6;
     border-top: none;
   }
 
@@ -2298,9 +2298,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   strong {
-    color: #8C1515;       /* Choose any color you want */
-    font-weight: bold;    /* Ensure it's visibly bold */
-    font-size: 1.1em;      /* Increase size slightly (adjust as needed) */
+    color: #8C1515;
+    font-weight: bold;
   }
 
   /* Precise: any link that goes to the King Center — Stanford maroon */
@@ -2313,7 +2312,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     text-decoration: underline;
   }
 
-  </style>
+  /*-- RESEARCH PAGE: paper title hierarchy --*/
+  /* Each entry is one paragraph whose first link is the paper title.
+     Coauthors, working-paper numbers and press links stay at body size so
+     the title is the only thing that carries extra weight.               */
+  d-article p > a:first-child {
+    font-weight: 600;
+    font-size: 1.06em;
+    color: #8C1515;
+    border-bottom: 1px solid rgba(140, 21, 21, 0.25);
+  }
+
+  d-article p > a:first-child:hover {
+    color: #a23b3b;
+    border-bottom-color: rgba(140, 21, 21, 0.6);
+  }
+
+  /* Work-in-progress entries have no draft linked yet: keep the title
+     styling but drop the affordance so it doesn't read as a live link. */
+  d-article p > a:first-child[href=""] {
+    border-bottom: none;
+    cursor: default;
+    pointer-events: none;
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2479,6 +2500,34 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <!-- Shared <head> additions: search-result snippet and link-preview cards.
+       Included by index.Rmd, research.Rmd and teaching.Rmd via `includes: in_header`. -->
+  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+
+  <meta name="description" content="Resuf Ahmed is a Postdoctoral Fellow at Stanford's King Center on Global Development, working on the political economy of minorities in India." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Resuf Ahmed" />
+  <meta property="og:title" content="Resuf Ahmed" />
+  <meta property="og:description" content="Postdoctoral Fellow at Stanford's King Center on Global Development. Research on the political economy of minorities in India." />
+  <meta property="og:image" content="https://resuf.github.io/resuf.jpg" />
+  <meta property="og:url" content="https://resuf.github.io/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Resuf Ahmed" />
+  <meta name="twitter:description" content="Postdoctoral Fellow at Stanford's King Center on Global Development. Research on the political economy of minorities in India." />
+  <meta name="twitter:image" content="https://resuf.github.io/resuf.jpg" />
+
+  <script>
+    /* The postcards trestles template hardcodes <img src="..."> with no alt
+       slot, so set it here for screen readers. */
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('img.rounded').forEach(function (img) {
+        if (!img.getAttribute('alt')) img.setAttribute('alt', 'Resuf Ahmed');
+      });
+    });
+  </script>
+
   <!--/radix_placeholder_site_in_header-->
 
 
@@ -2526,36 +2575,36 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p><a href="pdf/Reservation_to_Transformation.pdf">From Reservation to Transformation: The Socioeconomic Impact of Political Quotas</a></p>
 <p style="margin-top: -15px">
 <button class="abstract-btn">
-Abstract
+▸ Abstract
 </button>
 </p>
 <div class="abstract-content">
 <p>The role of affirmative action policies in promoting socioeconomic mobility remains a subject of intense global debate, with countries implementing varying strategies to address historical inequalities. This study leverages India’s 2008 delimitation exercise as a natural experiment to assess the impact of political quotas for Scheduled Castes (SCs) on local socio-economic outcomes, focusing specifically on SC outcomes within villages rather than solely village-level metrics. We find that SC reservations substantially increase SC student enrollment, particularly in prestigious schools, and foster entrepreneurial activity, as evidenced by the growth in both the number and size of SC-owned firms. Additionally, quotas facilitate SCs’ entry into higher-status occupations, helping to erode entrenched caste-based occupational barriers. These effects are driven by greater access to formal institutional funding for SC-owned firms and improvements in the quality of politicians elected under the quota system. Improvements at the village level, including infrastructure enhancements and increased economic activity, further support these outcomes. Notably, the observed gains persist even after villages lose reserved status, underscoring the long-term benefits of these policies. Our findings contribute to the global discourse on affirmative action, suggesting that targeted, well-implemented quotas can yield sustained social and economic mobility for marginalised groups. With India’s next delimitation scheduled post-2026, this research provides critical insights for policymakers worldwide seeking effective strategies to address inequality and social stratification.</p>
 </div>
-<p><a href="pdf/Ramayan.pdf">Ancient Epics in the Television Age: Religious Identity and the Rise of Hindu Nationalism in India</a>, (with <a href="https://deanyang-econ.github.io/deanyang/">Dean Yang</a>, <a href="https://sites.google.com/site/asaia9585/alessandro-saia">Alessandro Saia</a>, <a href="https://vpge.stanford.edu/people/akhila-kovvuri">Akhila Kovvuri</a> and <a href="https://pbrimble.github.io/">Paul Brimble</a>) <a href="https://www.nber.org/system/files/working_papers/w33417/w33417.pdf">NBER WP 33417</a> <br />
+<p><a href="pdf/Ramayan.pdf">Ancient Epics in the Television Age: Religious Identity and the Rise of Hindu Nationalism in India</a>, (with <a href="https://deanyang-econ.github.io/deanyang/">Dean Yang</a>, <a href="https://sites.google.com/site/asaia9585/alessandro-saia">Alessandro Saia</a>, <a href="https://vpge.stanford.edu/people/akhila-kovvuri">Akhila Kovvuri</a> and <a href="https://pbrimble.github.io/">Paul Brimble</a>) <a href="https://www.nber.org/system/files/working_papers/w33417/w33417.pdf">NBER WP 33417</a> <em>Under Review</em> <br />
     Press: <a href="https://voxdev.org/topic/institutions-political-economy/sunday-morning-broadcast-changed-indian-democracy">VoxDev</a>, <a href="https://www.thehindu.com/society/how-the-ramayan-tv-show-helped-shape-a-singular-nationwide-hindu-identity/article69202807.ece">The Hindu</a></p>
 <p style="margin-top: -15px">
 <button class="abstract-btn">
-Abstract
+▸ Abstract
 </button>
 </p>
 <div class="abstract-content">
 How does strengthened religious identity affect society and politics? We study the impact of “Ramayan,” the massively popular televised version of the Hindu epic. We conduct difference-in-differences analyses, measuring Ramayan exposure with TV signal strength in Indian localities at the time of airing in 1987. Localities with higher Ramayan exposure saw persistently strengthened Hindu religious identity, measured by the names given to newborns; increases in Hindu-Muslim communal violence during the Hindu-nationalist mobilization of the early 1990s; and longer-run increases in electoral success for the Hindu nationalist Bharatiya Janata Party. A battery of tests indicates these effects reflect exposure to Ramayan specifically, rather than television generally. Areas with greater exposure also saw increased presence of Hindu religious schools, a potential channel behind the long-run persistence of effects.
 </div>
-<p><a href="pdf/bharat_jodo_yatra.pdf">Leader Marches as an Opposition Electoral Strategy</a>, (with <a href="https://www.feyaadallie.com/">Feyaad Allie</a> ) <br />
+<p><a href="pdf/bharat_jodo_yatra.pdf">Leader Marches as an Opposition Electoral Strategy</a>, (with <a href="https://www.feyaadallie.com/">Feyaad Allie</a>) <em>Under Review</em> <br />
     Press: <a href="https://www.hindustantimes.com/india-news/bharat-jodo-yatra-boosts-congress-strike-rate-and-vote-share-in-karnataka-elections-101684006733079.html">Hindustan Times</a></p>
 <p style="margin-top: -15px">
 <button class="abstract-btn">
-Abstract
+▸ Abstract
 </button>
 </p>
 <div class="abstract-content">
 <p>Opposition parties often struggle in elections against populist incumbents. One extraordinary campaign tactic adopted across contexts by opposition parties facing populists is leader marches, where a party head treks across the country, engaging voters directly. This tactic addresses the image, reach, and electability challenges that populists impose. We study its consequences through the Indian National Congress leader’s 150-day Bharat Jodo Yatra. A difference-in-differences design with newly collected election data shows that geographic exposure to the march helped Congress, but only near the route, in proximate elections, and where it was the principal opposition. Interviews and descriptive evidence show the march countered the party’s elite image, overcame a pro-incumbent media environment, and signaled viability. An original survey a year later shows that reported participation correlates with favorable views of Congress. The article reveals that opposition extraordinary campaigning can make electoral inroads against entrenched populists, even if it fails to unseat them.</p>
 </div>
-<p><a href="pdf/ecourts_indonesia.pdf">Technology and the Production of Justice: System-Wide Effects of Indonesia’s E-Court Reform</a>, (with <a href="https://sites.google.com/view/sultan-mehmood/home">Sultan Mehmood</a> and Alexandra Filimonova)</p>
+<p><a href="pdf/ecourts_indonesia.pdf">Technology and the Production of Justice: System-Wide Effects of Indonesia’s E-Court Reform</a>, (with <a href="https://sites.google.com/view/sultan-mehmood/home">Sultan Mehmood</a> and Alexandra Filimonova) <em>Under Review</em></p>
 <p style="margin-top: -15px">
 <button class="abstract-btn">
-Abstract
+▸ Abstract
 </button>
 </p>
 <div class="abstract-content">
@@ -2604,11 +2653,9 @@ document.addEventListener('DOMContentLoaded', function() {
     buttons.forEach(function(button) {
         button.addEventListener('click', function() {
             var abstract = button.parentElement.nextElementSibling;
-            if (abstract.style.display === 'none' || abstract.style.display === '') {
-                abstract.style.display = 'block';
-            } else {
-                abstract.style.display = 'none';
-            }
+            var hidden = abstract.style.display === 'none' || abstract.style.display === '';
+            abstract.style.display = hidden ? 'block' : 'none';
+            button.innerHTML = (hidden ? '\u25be' : '\u25b8') + ' Abstract';
         });
     });
 });

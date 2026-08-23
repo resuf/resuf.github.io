@@ -23,8 +23,8 @@ html {
   --aside-size:      12px;
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
-  --title-color:     #ca225e;
-  --header-color:    #ca225e;                    /* edited */
+  --title-color:     #8C1515;
+  --header-color:    #8C1515;                    /* edited */
   --body-color:      #404040;                    /* edited */
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
@@ -78,13 +78,13 @@ d-appendix {
   --text-color:       #7e7b88;                   /* edited */
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #ca225e3d;                 /* edited */
+  --bkgd-color:       #8C15153d;                 /* edited */
 }
 
 /*-- Additional custom styles --*/
 
 ul > li::marker {
-  color: #ca225e;
+  color: #8C1515;
 }
 
 .distill-site-header {
@@ -113,7 +113,7 @@ d-article h2,
 }
 
 d-appendix {
-  background-color: #fdf7f9;
+  background-color: #faf6f6;
   border-top: none;
 }
 
@@ -122,9 +122,8 @@ d-title h1 {
 }
 
 strong {
-  color: #8C1515;       /* Choose any color you want */
-  font-weight: bold;    /* Ensure it's visibly bold */
-  font-size: 1.1em;      /* Increase size slightly (adjust as needed) */
+  color: #8C1515;
+  font-weight: bold;
 }
 
 /* Precise: any link that goes to the King Center — Stanford maroon */
@@ -137,4 +136,26 @@ a[href*="kingcenter.stanford.edu"]:hover {
   text-decoration: underline;
 }
 
+/*-- RESEARCH PAGE: paper title hierarchy --*/
+/* Each entry is one paragraph whose first link is the paper title.
+   Coauthors, working-paper numbers and press links stay at body size so
+   the title is the only thing that carries extra weight.               */
+d-article p > a:first-child {
+  font-weight: 600;
+  font-size: 1.06em;
+  color: #8C1515;
+  border-bottom: 1px solid rgba(140, 21, 21, 0.25);
+}
 
+d-article p > a:first-child:hover {
+  color: #a23b3b;
+  border-bottom-color: rgba(140, 21, 21, 0.6);
+}
+
+/* Work-in-progress entries have no draft linked yet: keep the title
+   styling but drop the affordance so it doesn't read as a live link. */
+d-article p > a:first-child[href=""] {
+  border-bottom: none;
+  cursor: default;
+  pointer-events: none;
+}

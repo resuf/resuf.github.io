@@ -1,0 +1,27 @@
+<!-- Shared <head> additions: search-result snippet and link-preview cards.
+     Included by index.Rmd, research.Rmd and teaching.Rmd via `includes: in_header`. -->
+<link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+
+<meta name="description" content="Resuf Ahmed is a Postdoctoral Fellow at Stanford's King Center on Global Development, working on the political economy of minorities in India." />
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Resuf Ahmed" />
+<meta property="og:title" content="Resuf Ahmed" />
+<meta property="og:description" content="Postdoctoral Fellow at Stanford's King Center on Global Development. Research on the political economy of minorities in India." />
+<meta property="og:image" content="https://resuf.github.io/resuf.jpg" />
+<meta property="og:url" content="https://resuf.github.io/" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Resuf Ahmed" />
+<meta name="twitter:description" content="Postdoctoral Fellow at Stanford's King Center on Global Development. Research on the political economy of minorities in India." />
+<meta name="twitter:image" content="https://resuf.github.io/resuf.jpg" />
+
+<script>
+  /* The postcards trestles template hardcodes <img src="..."> with no alt
+     slot, so set it here for screen readers. */
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('img.rounded').forEach(function (img) {
+      if (!img.getAttribute('alt')) img.setAttribute('alt', 'Resuf Ahmed');
+    });
+  });
+</script>

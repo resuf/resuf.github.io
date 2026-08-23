@@ -1,7 +1,5 @@
 ---
 title: "Teaching"
-date: "`r Sys.Date()`"
-output: distill::distill_article
 ---
 
 ## Masters

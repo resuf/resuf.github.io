@@ -13,6 +13,8 @@ $(CV_PDF): $(CV_TEX)
 
 site:
 	Rscript -e 'rmarkdown::render_site()'
+	# render_site() deletes it every run; GitHub Pages needs it back
+	touch docs/.nojekyll
 
 clean:
 	cd cv && latexmk -C

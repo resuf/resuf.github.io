@@ -93,9 +93,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 
-  <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2026-08-23"/>
-  <meta property="article:created" itemprop="dateCreated" content="2026-08-23"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
   <meta property="og:title" content="Resuf Ahmed: Teaching"/>
@@ -111,7 +108,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Teaching"]},{"type":"character","attributes":{},"value":["2026-08-23"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title"]}},"value":[{"type":"character","attributes":{},"value":["Teaching"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2202,8 +2199,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
-    --title-color:     #ca225e;
-    --header-color:    #ca225e;                    /* edited */
+    --title-color:     #8C1515;
+    --header-color:    #8C1515;                    /* edited */
     --body-color:      #404040;                    /* edited */
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
@@ -2257,13 +2254,13 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --text-color:       #7e7b88;                   /* edited */
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       #ca225e3d;                 /* edited */
+    --bkgd-color:       #8C15153d;                 /* edited */
   }
 
   /*-- Additional custom styles --*/
 
   ul > li::marker {
-    color: #ca225e;
+    color: #8C1515;
   }
 
   .distill-site-header {
@@ -2292,7 +2289,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   d-appendix {
-    background-color: #fdf7f9;
+    background-color: #faf6f6;
     border-top: none;
   }
 
@@ -2301,9 +2298,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   strong {
-    color: #8C1515;       /* Choose any color you want */
-    font-weight: bold;    /* Ensure it's visibly bold */
-    font-size: 1.1em;      /* Increase size slightly (adjust as needed) */
+    color: #8C1515;
+    font-weight: bold;
   }
 
   /* Precise: any link that goes to the King Center — Stanford maroon */
@@ -2316,7 +2312,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     text-decoration: underline;
   }
 
-  </style>
+  /*-- RESEARCH PAGE: paper title hierarchy --*/
+  /* Each entry is one paragraph whose first link is the paper title.
+     Coauthors, working-paper numbers and press links stay at body size so
+     the title is the only thing that carries extra weight.               */
+  d-article p > a:first-child {
+    font-weight: 600;
+    font-size: 1.06em;
+    color: #8C1515;
+    border-bottom: 1px solid rgba(140, 21, 21, 0.25);
+  }
+
+  d-article p > a:first-child:hover {
+    color: #a23b3b;
+    border-bottom-color: rgba(140, 21, 21, 0.6);
+  }
+
+  /* Work-in-progress entries have no draft linked yet: keep the title
+     styling but drop the affordance so it doesn't read as a live link. */
+  d-article p > a:first-child[href=""] {
+    border-bottom: none;
+    cursor: default;
+    pointer-events: none;
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2482,6 +2500,34 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
   <script src="site_libs/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
+  <!-- Shared <head> additions: search-result snippet and link-preview cards.
+       Included by index.Rmd, research.Rmd and teaching.Rmd via `includes: in_header`. -->
+  <link rel="icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+
+  <meta name="description" content="Resuf Ahmed is a Postdoctoral Fellow at Stanford's King Center on Global Development, working on the political economy of minorities in India." />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Resuf Ahmed" />
+  <meta property="og:title" content="Resuf Ahmed" />
+  <meta property="og:description" content="Postdoctoral Fellow at Stanford's King Center on Global Development. Research on the political economy of minorities in India." />
+  <meta property="og:image" content="https://resuf.github.io/resuf.jpg" />
+  <meta property="og:url" content="https://resuf.github.io/" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Resuf Ahmed" />
+  <meta name="twitter:description" content="Postdoctoral Fellow at Stanford's King Center on Global Development. Research on the political economy of minorities in India." />
+  <meta name="twitter:image" content="https://resuf.github.io/resuf.jpg" />
+
+  <script>
+    /* The postcards trestles template hardcodes <img src="..."> with no alt
+       slot, so set it here for screen readers. */
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('img.rounded').forEach(function (img) {
+        if (!img.getAttribute('alt')) img.setAttribute('alt', 'Resuf Ahmed');
+      });
+    });
+  </script>
+
   <!--/radix_placeholder_site_in_header-->
 
 
@@ -2492,7 +2538,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Teaching","authors":[],"publishedDate":"2026-08-23T00:00:00.000-07:00"}
+{"title":"Teaching","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
