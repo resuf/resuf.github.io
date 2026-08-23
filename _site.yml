@@ -4,6 +4,7 @@ title: "Resuf Ahmed"
 description: |
   Resuf Ahmed
 output_dir: "docs"
+exclude: ["cv", "Makefile", "*.tex"]
 navbar:
 #  logo:
 #    image: images/logo.png
