@@ -12,7 +12,7 @@ links:
     url: "https://www.linkedin.com/in/resuf/"
   - label: '`r fontawesome::fa("bluesky")` Bluesky'
     url: "https://bsky.app/profile/resuf.bsky.social"
-  - label: '`r fontawesome::fa("x-twitter")` X'
+  - label: '`r fontawesome::fa("x-twitter")` Twitter'
     url: "https://x.com/resuf_ahmed/"
 output:
   postcards::trestles
