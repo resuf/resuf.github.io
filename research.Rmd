@@ -58,6 +58,11 @@ Delays in judicial proceedings are a pervasive institutional challenge. We study
 
 
 
+# Public Writing
+
+[Inside Modi's "Cockroach" Crackdown](https://www.journalofdemocracy.org/online-exclusive/inside-modis-cockroach-crackdown/), *Journal of Democracy* (Online Exclusive), October 2026
+
+
 <style>
 /* Style the abstract button to look like a hyperlink */
 .abstract-btn {
